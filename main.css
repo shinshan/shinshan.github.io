@@ -1,0 +1,104 @@
+html {
+    height : 100%;
+}
+
+body {
+    background-color : #fcfcfc;
+    text-align       : center;
+    font-family      : 'Raleway', sans-serif;
+    font-size        : 14px;
+    height           : 100%;
+    /*margin           : 0;*/
+    /*display          : table*/
+}
+
+.navbar {
+    position   : fixed;
+    width      : 100%;
+    /*height     : 100px;*/
+    padding    : 50px;
+    box-sizing : border-box;
+}
+
+.nav {
+    list-style : none;
+    padding    : 0 100px;
+    float      : right;
+}
+
+.wrap {
+    /*display        : table-cell;*/
+    /*text-align     : center; !* horizontal *!*/
+    /*vertical-align : middle; !* vertical *!*/
+    display             : -ms-flexbox;
+    display             : -webkit-flex;
+    display             : flex;
+    -ms-flex-align      : center;
+    -webkit-align-items : center;
+    -webkit-box-align   : center;
+    align-items         : center;
+    height              : inherit;
+}
+
+.side {
+    display : inline-block;
+}
+
+.main {
+    width  : 75%;
+    margin : 0 auto;
+}
+
+img {
+    height  : 300px;
+    margin  : 0 100px;
+    display : inline-block;
+}
+
+article {
+    text-align : left;
+    display    : inline-block;
+    width      : 40%;
+}
+
+h1 {
+    font-size   : 36px;
+    font-family : 'Pacifico', cursive;
+    font-weight : normal;
+}
+
+.yellow:before {
+    content          : '';
+    display          : inline-block;
+    background-color : yellow;
+}
+
+.role.yellow:before {
+    width         : 220px;
+    height        : 16px;
+    margin-right  : -190px;
+    margin-left   : -30px;
+    margin-bottom : -5px;
+}
+
+.email.yellow:before {
+    width         : 200px;
+    height        : 16px;
+    margin-right  : -200px;
+    margin-bottom : 1px;
+}
+
+p {
+    letter-spacing : 1px;
+    line-height    : 25px;
+}
+
+.emp {
+    font-size : 25px;
+}
+
+.indent {
+    font-size   : 20px;
+    margin-left : 12px;
+    line-height : 1px;
+}
