@@ -82,7 +82,7 @@ h1 {
 .yellow:before {
     content          : '';
     display          : inline-block;
-    background-color : #ffed48;
+    background-color : #fff16c;
     /*background-color : #fcee21;*/
     height           : 16px;
 }
