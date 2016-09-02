@@ -16,10 +16,11 @@
     <body>
         <div class="navbar">
             <ul class="nav">
-                <li><a href="#contact">contact</a></li>
+                <li id="toHome" class="inactive"><a href="#home">home</a></li>
+                <li id="toContact"><a href="#contact">contact</a></li>
             </ul>
         </div>
-        <div class="wrap">
+        <div id="home" class="wrap">
             <div class="main">
                 <img src="img/portrait.png">
                 <article>
@@ -30,7 +31,7 @@
                         <br>
                         <span class="indent">and making stuff work.</span>
                     </p>
-                    <p>I developed interest in front-end development because it involves art and human psychology, beautiful yet must be easy to use. It challenges my mind to be creative as an artist and programmer.</p>
+                    <p>I developed interest in front-end development because it involves art and human psychology, beautiful yet must be easy to use. It challenges my creativity as an artist and programmer.</p>
 
                     <p>I’m currently teaching myself to do Hand Lettering and faux calligraphy and piles of UI designing.</p>
                 </article>
@@ -40,11 +41,12 @@
             <div id="contact" class="main">
                 <h1>Let’s make great stuff together!</h1>
                 <p>Drop me an email for my resume.</p>
-                <p class="email yellow">sangracetiu@gmail.com</p>
+                <p><a class="email yellow" href="mailto:sangracetiu@gmail.com">sangracetiu@gmail.com</a></p>
             </div>
 
         </div>
 
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
         <script type="application/javascript" src="main.js"></script>
 
     </body>

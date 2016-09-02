@@ -12,15 +12,25 @@ body {
 }
 
 .navbar {
-    position         : fixed;
-    width            : 100%;
-    box-sizing       : border-box;
+    position   : fixed;
+    width      : 100%;
+    box-sizing : border-box;
 }
 
 .nav {
     list-style : none;
     padding    : 50px 100px;
     float      : right;
+}
+
+.nav li {
+    background-color : #fcfcfc;
+    padding          : 5px 10px;
+    border-radius    : 5px;
+}
+
+.nav li.inactive {
+    display : none;
 }
 
 .wrap {
@@ -109,30 +119,25 @@ a:hover {
 }
 
 @media only screen and (max-width : 600px) {
-    .main {
-        width : 100%; }
 
     img {
         height : 150px;
-        margin : 0 100px;
     }
 
     article {
-        width      : 100%;
-        padding    : 10px;
-        text-align : center;
+        width : 100%;
     }
 
     .nav {
         padding : 20px 50px;
     }
-
 }
 
 @media only screen and (max-width : 900px) {
 
     .main {
-        width : 100%; }
+        width : 100%;
+    }
 
     article {
         width      : 75%;
