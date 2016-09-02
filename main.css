@@ -69,6 +69,10 @@ article {
     box-sizing : border-box;
 }
 
+#contact article {
+    text-align : center;
+}
+
 h1 {
     font-size   : 36px;
     font-family : 'Pacifico', cursive;
@@ -78,7 +82,8 @@ h1 {
 .yellow:before {
     content          : '';
     display          : inline-block;
-    background-color : #fcee21;
+    background-color : #ffed48;
+    /*background-color : #fcee21;*/
     height           : 16px;
 }
 
